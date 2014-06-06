@@ -105,6 +105,8 @@
       <button id="sub" class="button button-blue">Select Character</a>
 
 
+  <script src="../js_bin/chosen.jquery.js" type="text/javascript"></script>
+
   <script type="text/javascript">
     var config = {
       '.chosen-select'           : {},

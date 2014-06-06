@@ -13,7 +13,7 @@
 
   <!-- Page Specific CSS Files -->
   <link rel="stylesheet" href="chosen.css">
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
   <script src="../js_bin/chosen.jquery.js" type="text/javascript"></script>
   <script src="../docsupport/prism.js" type="text/javascript" charset="utf-8"></script>
 </head>
@@ -98,6 +98,25 @@
               <input type="radio" id="healer" name="role" value="healer">
            </div>
 
+           <script>
+            $(function() {
+              $("#slider1").slider({
+                range: true,
+                values: [ 1, 24 ]
+              });
+              
+              // Hover states on the static widgets
+              $( "#dialog-link, #icons li" ).hover(
+                function() {
+                  $( this ).addClass( "ui-state-hover" );
+                },
+                function() {
+                  $( this ).removeClass( "ui-state-hover" );
+                }
+              );
+            });
+            </script>
+
             <script>
                   $(function() {
                     $( "#check" ).button();
@@ -107,6 +126,8 @@
 
 <!--       SUBMIT BUTTON -->
       <button id="sub" class="button button-blue">Select Character</a>
+
+  <script src="../js_bin/chosen.jquery.js" type="text/javascript"></script>
 
   <script type="text/javascript">
     var config = {

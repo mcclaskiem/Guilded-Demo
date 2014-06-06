@@ -234,6 +234,8 @@
       <button id="sub" class="button button-blue">Search</a>
 
         <!-- Javascript for Chosen Dropdown -->
+  <script src="../js_bin/chosen.jquery.js" type="text/javascript"></script>
+
   <script type="text/javascript">
     var config = {
       '.chosen-select'           : {},
