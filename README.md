@@ -7,6 +7,16 @@ Built with HTML/CSS/Jquery/JS/PHP/MySQL
 
 Demo is available at:
 http://guilded-demo.herokuapp.com/
-(Current Dropdown Styling is still being debugged, styling works locally but not on Heroku)
+
 
 Please feel free to contribute and continue to build on the existing platform.
+
+
+To-Do List:
+
+Integrate Item breakdown and character profile surrounding the rendered 3D image from Armory
+
+Create image based results page (icons for class/role instead of text)
+
+Re-package the app to allow for easier integrated plug-in for guild websites.
+
